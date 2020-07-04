@@ -16,18 +16,18 @@ function createGroceries(groceryList) {
 
 const groceryList = [];
 let banana = new Grocery("banana",3);
-let orange = new Grocery("orange",5);
-let grape = new Grocery("grape",30);
-let kiwi = new Grocery("kiwi",4);
-let canteloupe = new Grocery("canteloupe",1);
-let watermelon = new Grocery("watermelon",1);
-let strawberry = new Grocery("strawberry",7);
+let bread = new Grocery("bread",5);
+let eggs = new Grocery("eggs",30);
+let milk = new Grocery("milk",4);
+let cheese = new Grocery("cheese",1);
+let meat = new Grocery("watermeatmelon",1);
+let pasta = new Grocery("pasta",7);
 groceryList.push(banana);
-groceryList.push(orange);
-groceryList.push(grape);
-groceryList.push(kiwi);
-groceryList.push(canteloupe);
-groceryList.push(watermelon);
-groceryList.push(strawberry);
+groceryList.push(bread);
+groceryList.push(eggs);
+groceryList.push(milk);
+groceryList.push(cheese);
+groceryList.push(meat);
+groceryList.push(pasta);
 
 document.body.textContent = createGroceries(groceryList);
